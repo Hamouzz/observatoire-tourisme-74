@@ -1,0 +1,13 @@
+code_postal,commune_source,code_insee,methode,confiance,justification
+74210,SEYTHENEX,74123,similarite,1.0,similarité de libellé avec FAVERGES-SEYTHENEX (100/100)
+74930,REIGNIER,74220,similarite,1.0,similarité de libellé avec REIGNIER-ÉSERY (100/100)
+74210,TALLOIRES,74275,similarite,1.0,similarité de libellé avec TALLOIRES-MONTMIN (100/100)
+74290,TALLOIRES,74275,similarite,1.0,similarité de libellé avec TALLOIRES-MONTMIN (100/100)
+74210,FAVERGES,74123,similarite,1.0,similarité de libellé avec FAVERGES-SEYTHENEX (100/100)
+74370,METZ-TESSY,74112,similarite,1.0,similarité de libellé avec EPAGNY METZ-TESSY (100/100)
+74600,SEYNOD,74010,manuel,1.0,Seynod a fusionné dans la commune nouvelle d'Annecy le 01/01/2017
+74370,PRINGY,74010,manuel,1.0,Pringy a fusionné dans la commune nouvelle d'Annecy le 01/01/2017
+74110,AVORIAZ,74191,manuel,1.0,Avoriaz est une station située sur la commune de Morzine
+74300,LES CARROZ D'ARACHES,74014,manuel,1.0,Les Carroz est un village de la commune d'Arâches-la-Frasse
+74300,FLAINE,74014,manuel,0.9,"Station de Flaine, majoritairement sur Arâches-la-Frasse (une partie sur Magland) : à confirmer à l'adresse"
+74330,ÉPAGNY,74112,similarite,1.0,similarité de libellé avec EPAGNY METZ-TESSY (100/100)

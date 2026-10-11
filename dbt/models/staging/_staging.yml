@@ -1,0 +1,32 @@
+version: 2
+
+models:
+  - name: stg_atout_france__hebergements
+    description: Hébergements classés nettoyés et typés, une ligne par établissement.
+    columns:
+      - name: hebergement_id
+        data_tests: [unique, not_null]
+      - name: typologie
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['HÔTEL DE TOURISME', 'CAMPING', 'RÉSIDENCE DE TOURISME',
+                         'VILLAGE DE VACANCES', 'PARC RÉSIDENTIEL DE LOISIRS',
+                         'AUBERGE COLLECTIVE']
+              config: {severity: warn}
+      - name: nb_etoiles
+        data_tests:
+          - valeur_dans_intervalle:
+              arguments: {min_value: 1, max_value: 5}
+      - name: date_classement
+        data_tests:
+          - not_null:
+              config: {severity: warn}
+  - name: stg_geo__communes
+    columns:
+      - name: code_insee
+        data_tests: [unique, not_null]
+      - name: population
+        data_tests:
+          - valeur_dans_intervalle:
+              arguments: {min_value: 0}

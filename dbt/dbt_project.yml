@@ -1,0 +1,30 @@
+name: observatoire_tourisme
+version: "1.0.0"
+config-version: 2
+profile: observatoire_tourisme
+
+model-paths: ["models"]
+test-paths: ["tests"]
+macro-paths: ["macros"]
+target-path: "target"
+clean-targets: ["target", "dbt_packages"]
+
+vars:
+  # Date de référence des indicateurs (statut des classements).
+  # Surchargeable : dbt build --vars '{date_reference: "2026-10-11"}'
+  date_reference: null
+  # Durée de validité d'un classement Atout France (années)
+  duree_validite_classement: 5
+
+models:
+  observatoire_tourisme:
+    staging:
+      +materialized: view
+      +schema: staging
+    intermediate:
+      +materialized: table
+      +schema: intermediate
+    marts:
+      +materialized: table
+      +schema: marts
+

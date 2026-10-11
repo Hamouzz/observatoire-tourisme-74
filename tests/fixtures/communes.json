@@ -1,0 +1,245 @@
+[
+ {
+  "nom": "Annecy",
+  "code": "74010",
+  "codesPostaux": [
+   "74000",
+   "74370",
+   "74600",
+   "74940",
+   "74960"
+  ],
+  "population": 132117,
+  "surface": 6986.68,
+  "centre": {
+   "type": "Point",
+   "coordinates": [
+    6.1264,
+    45.9024
+   ]
+  },
+  "codeEpci": "200066793"
+ },
+ {
+  "nom": "Chamonix-Mont-Blanc",
+  "code": "74056",
+  "codesPostaux": [
+   "74400"
+  ],
+  "population": 8600,
+  "surface": 11653.0,
+  "centre": {
+   "type": "Point",
+   "coordinates": [
+    6.8694,
+    45.9237
+   ]
+  },
+  "codeEpci": "247400724"
+ },
+ {
+  "nom": "Megève",
+  "code": "74173",
+  "codesPostaux": [
+   "74120"
+  ],
+  "population": 3000,
+  "surface": 4441.0,
+  "centre": {
+   "type": "Point",
+   "coordinates": [
+    6.6177,
+    45.8567
+   ]
+  },
+  "codeEpci": "200034882"
+ },
+ {
+  "nom": "Saint-Gervais-les-Bains",
+  "code": "74236",
+  "codesPostaux": [
+   "74170",
+   "74190"
+  ],
+  "population": 5500,
+  "surface": 5985.0,
+  "centre": {
+   "type": "Point",
+   "coordinates": [
+    6.7122,
+    45.8925
+   ]
+  },
+  "codeEpci": "200034882"
+ },
+ {
+  "nom": "Évian-les-Bains",
+  "code": "74119",
+  "codesPostaux": [
+   "74500"
+  ],
+  "population": 9300,
+  "surface": 445.0,
+  "centre": {
+   "type": "Point",
+   "coordinates": [
+    6.5895,
+    46.4006
+   ]
+  },
+  "codeEpci": "200067551"
+ },
+ {
+  "nom": "Morzine",
+  "code": "74191",
+  "codesPostaux": [
+   "74110"
+  ],
+  "population": 2900,
+  "surface": 4436.0,
+  "centre": {
+   "type": "Point",
+   "coordinates": [
+    6.7086,
+    46.1793
+   ]
+  },
+  "codeEpci": "200000172"
+ },
+ {
+  "nom": "Montriond",
+  "code": "74188",
+  "codesPostaux": [
+   "74110"
+  ],
+  "population": 950,
+  "surface": 2414.0,
+  "centre": {
+   "type": "Point",
+   "coordinates": [
+    6.6942,
+    46.2035
+   ]
+  },
+  "codeEpci": "200000172"
+ },
+ {
+  "nom": "Les Gets",
+  "code": "74134",
+  "codesPostaux": [
+   "74260"
+  ],
+  "population": 1300,
+  "surface": 2075.0,
+  "centre": {
+   "type": "Point",
+   "coordinates": [
+    6.669,
+    46.159
+   ]
+  },
+  "codeEpci": "200000172"
+ },
+ {
+  "nom": "La Clusaz",
+  "code": "74080",
+  "codesPostaux": [
+   "74220"
+  ],
+  "population": 1650,
+  "surface": 4122.0,
+  "centre": {
+   "type": "Point",
+   "coordinates": [
+    6.4242,
+    45.905
+   ]
+  },
+  "codeEpci": "247400690"
+ },
+ {
+  "nom": "Talloires-Montmin",
+  "code": "74275",
+  "codesPostaux": [
+   "74290"
+  ],
+  "population": 1700,
+  "surface": 3528.0,
+  "centre": {
+   "type": "Point",
+   "coordinates": [
+    6.214,
+    45.841
+   ]
+  },
+  "codeEpci": "200066793"
+ },
+ {
+  "nom": "Thonon-les-Bains",
+  "code": "74281",
+  "codesPostaux": [
+   "74200"
+  ],
+  "population": 36000,
+  "surface": 1632.0,
+  "centre": {
+   "type": "Point",
+   "coordinates": [
+    6.4794,
+    46.3705
+   ]
+  },
+  "codeEpci": "200067551"
+ },
+ {
+  "nom": "Annemasse",
+  "code": "74012",
+  "codesPostaux": [
+   "74100"
+  ],
+  "population": 37000,
+  "surface": 498.0,
+  "centre": {
+   "type": "Point",
+   "coordinates": [
+    6.2365,
+    46.193
+   ]
+  },
+  "codeEpci": "247400583"
+ },
+ {
+  "nom": "Combloux",
+  "code": "74083",
+  "codesPostaux": [
+   "74920"
+  ],
+  "population": 2100,
+  "surface": 1641.0,
+  "centre": {
+   "type": "Point",
+   "coordinates": [
+    6.6411,
+    45.8968
+   ]
+  },
+  "codeEpci": "200034882"
+ },
+ {
+  "nom": "Veyrier-du-Lac",
+  "code": "74299",
+  "codesPostaux": [
+   "74290"
+  ],
+  "population": 2300,
+  "surface": 508.0,
+  "centre": {
+   "type": "Point",
+   "coordinates": [
+    6.176,
+    45.883
+   ]
+  },
+  "codeEpci": "200066793"
+ }
+]

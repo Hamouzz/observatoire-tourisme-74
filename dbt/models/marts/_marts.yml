@@ -1,0 +1,63 @@
+version: 2
+
+models:
+  - name: dim_commune
+    description: Communes du département + membre "99999 Commune non identifiée".
+    columns:
+      - name: code_insee
+        data_tests: [unique, not_null]
+
+  - name: dim_typologie
+    columns:
+      - name: typologie
+        data_tests: [unique, not_null]
+
+  - name: dim_date
+    columns:
+      - name: date_jour
+        data_tests: [unique, not_null]
+
+  - name: fct_hebergements_classes
+    description: Un établissement classé par ligne.
+    columns:
+      - name: hebergement_id
+        data_tests: [unique, not_null]
+      - name: code_insee
+        description: "'99999' si la commune n'a pas pu être rapprochée."
+        data_tests:
+          - not_null
+          - relationships:
+              arguments: {to: ref('dim_commune'), field: code_insee}
+      - name: typologie
+        data_tests:
+          - relationships:
+              arguments: {to: ref('dim_typologie'), field: typologie}
+      - name: capacite_accueil
+        data_tests:
+          - valeur_dans_intervalle:
+              arguments: {min_value: 0, max_value: 5000}
+              config: {severity: warn}
+      - name: statut_classement
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['Valide', 'Expire sous 6 mois', 'Expiré', 'Prorogé', 'Date inconnue']
+
+  - name: mart_indicateurs_communes
+    columns:
+      - name: code_insee
+        data_tests: [unique, not_null]
+      - name: taux_fonction_touristique
+        data_tests:
+          - valeur_dans_intervalle:
+              arguments: {min_value: 0}
+
+  - name: mart_qualite_anomalies
+    description: Une ligne par anomalie détectée par les contrôles automatisés.
+    columns:
+      - name: anomalie_id
+        data_tests: [unique, not_null]
+      - name: severite
+        data_tests:
+          - accepted_values:
+              arguments: {values: ['Bloquante', 'Avertissement', 'Info']}

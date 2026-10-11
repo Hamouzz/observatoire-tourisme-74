@@ -1,0 +1,57 @@
+# Exécution mensuelle automatique du pipeline.
+# - les exports (CSV Power BI, rapport Excel, synthèse) sont publiés en artefact ;
+# - si l'IA propose de nouvelles correspondances de communes, une pull request
+#   est ouverte : un humain relit et valide avant fusion.
+name: Pipeline mensuel
+
+on:
+  schedule:
+    - cron: "0 6 2 * *"   # le 2 de chaque mois à 6 h UTC
+  workflow_dispatch:       # lancement manuel depuis l'onglet Actions
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Installer les dépendances
+        run: pip install -r requirements.txt
+
+      - name: Tests unitaires et test de bout en bout (démo)
+        run: pytest -q
+
+      - name: Pipeline sur données réelles
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python run_pipeline.py
+
+      - name: Publier les exports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: exports-${{ github.run_number }}
+          path: |
+            data/exports/
+            data/logs/pipeline.log
+
+      - name: Proposer les nouvelles correspondances de communes
+        uses: peter-evans/create-pull-request@v6
+        with:
+          add-paths: referentiels/correspondances_communes.csv
+          branch: ia/correspondances-communes
+          title: "Correspondances de communes proposées par le pipeline"
+          commit-message: "Nouvelles correspondances de communes (run ${{ github.run_number }})"
+          body: |
+            Le rapprochement automatique a proposé de nouvelles correspondances
+            libellé de commune -> code INSEE. Merci de vérifier chaque ligne
+            (colonnes `confiance` et `justification`) avant de fusionner.

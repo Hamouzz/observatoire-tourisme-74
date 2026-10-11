@@ -1,0 +1,20 @@
+# Environnement
+.venv/
+__pycache__/
+*.pyc
+.env
+.pytest_cache/
+
+# Données générées (reconstruites par le pipeline)
+data/
+!data/.gitkeep
+
+# dbt
+dbt/target/
+dbt/logs/
+dbt/dbt_packages/
+logs/
+
+# Power BI : fichiers temporaires
+*.pbix.bak
+~$*

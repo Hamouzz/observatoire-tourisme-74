@@ -1,0 +1,27 @@
+version: 2
+
+sources:
+  - name: raw
+    description: Données brutes chargées par les scripts Python (texte, non typé).
+    schema: raw
+    tables:
+      - name: hebergements_classes
+        description: Hébergements collectifs classés par Atout France, filtrés sur le département.
+        columns:
+          - name: nom_commercial
+            data_tests: [not_null]
+          - name: code_postal
+            data_tests: [not_null]
+      - name: communes
+        description: Référentiel des communes (geo.api.gouv.fr).
+        columns:
+          - name: code_insee
+            data_tests: [unique, not_null]
+      - name: communes_codes_postaux
+        description: Correspondance commune / codes postaux (une ligne par couple).
+      - name: journal_ingestion
+        description: Historique des chargements (volumétrie par run).
+      - name: correspondances_communes
+        description: >
+          Correspondances libellé de commune -> code INSEE (referentiels/correspondances_communes.csv),
+          proposées par l'IA ou saisies à la main, relues en revue de code.

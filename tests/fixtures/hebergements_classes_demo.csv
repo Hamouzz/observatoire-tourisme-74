@@ -1,0 +1,42 @@
+DATE DE CLASSEMENT;TYPOLOGIE ÉTABLISSEMENT;CLASSEMENT;CATÉGORIE;MENTION (villages de vacances);NOM COMMERCIAL;ADRESSE;CODE POSTAL;COMMUNE;SITE INTERNET;TYPE DE SÉJOUR;CAPACITÉ D'ACCUEIL (PERSONNES);NOMBRE DE CHAMBRES;NOMBRE D'EMPLACEMENTS;NOMBRE D'UNITES D'HABITATION (résidences de tourisme);NOMBRE DE LOGEMENTS (villages de vacances);classement prorogé
+11/02/2024;HÔTEL DE TOURISME;1 étoiles;-;-;HÔTEL DU LAC BLEU;103 route de démonstration;74000;ANNECY;https://www.example.org/hôtel-du-lac-bleu;-;180;90;-;-;-;non
+12/04/2021;HÔTEL DE TOURISME;1 étoiles;-;-;HÔTEL DES AIGUILLES;57 route de démonstration;74940;ANNECY;https://www.example.org/hôtel-des-aiguilles;-;102;51;-;-;-;non
+15/05/2024;HÔTEL DE TOURISME;2 étoiles;-;-;LE CHALET DES CIMES;41 route de démonstration;74600;SEYNOD;https://www.example.org/le-chalet-des-cimes;-;140;70;-;-;-;non
+01/10/2024;HÔTEL DE TOURISME;5 étoiles;-;-;HÔTEL BELVÉDÈRE;6 route de démonstration;74940;ANNECY-LE-VIEUX;https://www.example.org/hôtel-belvédère;-;94;47;-;-;-;non
+15/04/2026;HÔTEL DE TOURISME;2 étoiles;-;-;AUBERGE DU COL;77 route de démonstration;74400;CHAMONIX-MONT-BLANC;https://www.example.org/auberge-du-col;-;56;28;-;-;-;non
+09/05/2021;HÔTEL DE TOURISME;4 étoiles;-;-;HÔTEL LES MARMOTTES;1 route de démonstration;74400;CHAMONIX MONT BLANC;https://www.example.org/hôtel-les-marmottes;-;130;65;-;-;-;non
+06/11/2021;HÔTEL DE TOURISME;5 étoiles;-;-;GRAND HÔTEL DES ALPES;8 route de démonstration;74120;MEGEVE;https://www.example.org/grand-hôtel-des-alpes;-;164;82;-;-;-;non
+02/06/2025;HÔTEL DE TOURISME;1 étoiles;-;-;HÔTEL LE REFUGE;3 route de démonstration;74170;ST GERVAIS LES BAINS;https://www.example.org/hôtel-le-refuge;-;78;39;-;-;-;non
+19/12/2023;HÔTEL DE TOURISME;4 étoiles;-;-;HÔTEL DU MONT;92 route de démonstration;74500;EVIAN-LES-BAINS;https://www.example.org/hôtel-du-mont;-;50;25;-;-;-;non
+06/12/2021;HÔTEL DE TOURISME;5 étoiles;-;-;HÔTEL LUMIÈRE;23 route de démonstration;74110;MORZINE;https://www.example.org/hôtel-lumière;-;124;62;-;-;-;non
+13/08/2023;HÔTEL DE TOURISME;5 étoiles;-;-;HÔTEL DE LA POSTE;14 route de démonstration;74110;MONTRIOND;https://www.example.org/hôtel-de-la-poste;-;134;67;-;-;-;non
+15/01/2021;HÔTEL DE TOURISME;4 étoiles;-;-;HÔTEL EDELWEISS;17 route de démonstration;74260;LES GETS;https://www.example.org/hôtel-edelweiss;-;82;41;-;-;-;non
+10/04/2021;HÔTEL DE TOURISME;1 étoiles;-;-;HÔTEL LES SAPINS;37 route de démonstration;74220;LA CLUSAZ;https://www.example.org/hôtel-les-sapins;-;144;72;-;-;-;non
+23/09/2022;HÔTEL DE TOURISME;3 étoiles;-;-;HÔTEL PANORAMA;41 route de démonstration;74290;TALLOIRES-MONTMIN;https://www.example.org/hôtel-panorama;-;164;82;-;-;-;non
+07/02/2022;CAMPING;3 étoiles;Tourisme;-;CAMPING LES RIVES;83 route de démonstration;74120;MEGEVE;https://www.example.org/camping-les-rives;Loisirs;315;-;105;-;-;non
+23/07/2022;CAMPING;3 étoiles;Tourisme;-;CAMPING DU TORRENT;82 route de démonstration;74110;MORZINE;https://www.example.org/camping-du-torrent;Loisirs;588;-;196;-;-;non
+04/12/2020;CAMPING;5 étoiles;Tourisme;-;CAMPING LA FORÊT;28 route de démonstration;74220;LA CLUSAZ;https://www.example.org/camping-la-forêt;Loisirs;426;-;142;-;-;non
+10/05/2024;CAMPING;3 étoiles;Tourisme;-;CAMPING LE PRÉ FLEURI;8 route de démonstration;74200;THONON-LES-BAINS;https://www.example.org/camping-le-pré-fleuri;Loisirs;276;-;92;-;-;non
+21/08/2024;CAMPING;2 étoiles;Tourisme;-;CAMPING DES MARMOTTES;118 route de démonstration;74000;ANNECY;https://www.example.org/camping-des-marmottes;Loisirs;609;-;203;-;-;non
+03/08/2022;RÉSIDENCE DE TOURISME;3 étoiles;-;-;RÉSIDENCE LES BALCONS;111 route de démonstration;74400;CHAMONIX MONT BLANC;https://www.example.org/résidence-les-balcons;-;596;-;-;149;-;non
+23/12/2020;RÉSIDENCE DE TOURISME;2 étoiles;-;-;RÉSIDENCE LE HAMEAU;24 route de démonstration;74110;MONTRIOND;https://www.example.org/résidence-le-hameau;-;468;-;-;117;-;non
+26/08/2023;RÉSIDENCE DE TOURISME;4 étoiles;-;-;RÉSIDENCE L'ALTITUDE;84 route de démonstration;74200;THONON-LES-BAINS;https://www.example.org/résidence-laltitude;-;456;-;-;114;-;non
+24/08/2024;RÉSIDENCE DE TOURISME;2 étoiles;-;-;RÉSIDENCE LES GRANGES;66 route de démonstration;74600;SEYNOD;https://www.example.org/résidence-les-granges;-;184;-;-;46;-;non
+09/09/2025;VILLAGE DE VACANCES;3 étoiles;-;Mention famille;VILLAGE VACANCES LES ALPAGES;72 route de démonstration;74920;COMBLOUX;https://www.example.org/village-vacances-les-alpages;-;308;-;-;-;77;non
+20/10/2021;VILLAGE DE VACANCES;2 étoiles;-;Mention famille;VILLAGE CLUB DU LAC;119 route de démonstration;74120;MEGEVE;https://www.example.org/village-club-du-lac;-;376;-;-;-;94;non
+22/05/2021;AUBERGE COLLECTIVE;Classée;-;-;AUBERGE DU RANDONNEUR;21 route de démonstration;74400;CHAMONIX-MONT-BLANC;https://www.example.org/auberge-du-randonneur;-;48;-;-;-;-;non
+13/12/2021;PARC RÉSIDENTIEL DE LOISIRS;Classé;-;-;PARC DES BOIS;95 route de démonstration;74500;EVIAN-LES-BAINS;https://www.example.org/parc-des-bois;-;120;-;30;-;-;non
+12/05/2025;HÔTEL DE TOURISME;3 étoiles;-;-;HÔTEL CAPACITÉ ABERRANTE;77 route de démonstration;74120;MEGEVE;https://www.example.org/hôtel-capacité-aberrante;-;400;10;-;-;-;non
+02/03/2024;HÔTEL DE TOURISME;2 étoiles;-;-;HÔTEL SANS CAPACITÉ;39 route de démonstration;74170;ST GERVAIS LES BAINS;https://www.example.org/hôtel-sans-capacité;-;-;15;-;-;-;non
+01/07/2025;CAMPING;3 étoiles;Tourisme;-;CAMPING SANS EMPLACEMENTS;16 route de démonstration;74290;TALLOIRES-MONTMIN;https://www.example.org/camping-sans-emplacements;Loisirs;300;-;-;-;-;non
+15/06/2019;HÔTEL DE TOURISME;4 étoiles;-;-;HÔTEL CLASSEMENT ANCIEN;35 route de démonstration;74000;ANNECY;https://www.example.org/hôtel-classement-ancien;-;120;60;-;-;-;non
+20/11/2021;HÔTEL DE TOURISME;3 étoiles;-;-;HÔTEL BIENTÔT EXPIRÉ;20 route de démonstration;74220;LA CLUSAZ;https://www.example.org/hôtel-bientôt-expiré;-;80;40;-;-;-;non
+10/01/2020;HÔTEL DE TOURISME;3 étoiles;-;-;HÔTEL PROROGÉ;89 route de démonstration;74260;LES GETS;https://www.example.org/hôtel-prorogé;-;70;35;-;-;-;oui
+01/02/2027;RÉSIDENCE DE TOURISME;3 étoiles;-;-;RÉSIDENCE DATE FUTURE;77 route de démonstration;74110;MORZINE;https://www.example.org/résidence-date-future;-;200;-;-;50;-;non
+09/09/2023;HÔTEL DE TOURISME;3 étoiles;-;-;HÔTEL SITE INVALIDE;50 route de démonstration;74500;EVIAN-LES-BAINS;www sans protocole;-;50;25;-;-;-;non
+04/04/2024;HÔTEL DE TOURISME;4 étoiles;-;-;HÔTEL EN DOUBLE;22 route de démonstration;74400;CHAMONIX-MONT-BLANC;https://www.example.org/hôtel-en-double;-;90;45;-;-;-;non
+04/04/2024;HÔTEL DE TOURISME;4 étoiles;-;-;HÔTEL EN DOUBLE;22 route de démonstration;74400;CHAMONIX-MONT-BLANC;https://www.example.org/hôtel-en-double;-;90;45;-;-;-;non
+02/02/2023;HÔTEL DE TOURISME;2 étoiles;-;-;HÔTEL COMMUNE INCONNUE;62 route de démonstration;74999;VILLAGE IMAGINAIRE;https://www.example.org/hôtel-commune-inconnue;-;30;15;-;-;-;non
+01/06/2024;CAMPING;3 étoiles;Tourisme;-;CAMPING DU COL DE LA FORCLAZ;103 route de démonstration;74290;MONTMIN;https://www.example.org/camping-forclaz;Loisirs;210;-;70;-;-;non
+19/06/2023;HÔTEL DE TOURISME;3 étoiles;-;-;HÔTEL GRENOBLOIS;13 route de démonstration;38000;GRENOBLE;https://www.example.org/hôtel-grenoblois;-;62;37;-;-;-;non
+01/01/2022;CAMPING;4 étoiles;Tourisme;-;CAMPING BRETON;78 route de démonstration;29000;QUIMPER;https://www.example.org/camping-breton;Loisirs;500;-;150;-;-;non
