@@ -6,7 +6,6 @@ automatisé, avec des **contrôles qualité automatisés** et une **IA encadrée
 > **Question métier** : où se concentre l'offre d'hébergement classée du département, quelles communes dépendent
 > le plus du tourisme, quels hébergeurs doivent renouveler leur classement et quelle confiance accorder aux chiffres ?
 
-![Vue d'ensemble](docs/page1_vue_ensemble.png)
 
 ---
 
@@ -21,6 +20,30 @@ automatisé, avec des **contrôles qualité automatisés** et une **IA encadrée
 | **IA** | Claude (API Anthropic) | Rapprochement des communes fusionnées et rédaction automatique d'une note de synthèse, avec garde-fous et repli sans IA. |
 | **Restitution** | Power BI, Excel | Rapport Power BI de 4 pages (Power Query, DAX) et rapport Excel mensuel mis en forme automatiquement. |
 | **Automatisation** | GitHub Actions | Exécution mensuelle, publication des exports, pull request de revue pour les propositions de l'IA. |
+
+## Le rapport Power BI
+
+Quatre pages, une question métier par page. Les segments (intercommunalité, famille d'hébergement) sont synchronisés entre les pages et le titre s'adapte au territoire filtré.
+
+### 1. Vue d'ensemble : où se concentre l'offre ?
+579 établissements classés, 99 528 lits, 11,6 lits touristiques pour 100 habitants à l'échelle du département.
+
+![Vue d'ensemble](docs/page1_vue_ensemble.png)
+
+### 2. Communes : quelles communes dépendent le plus du tourisme ?
+Le nuage de points (échelles logarithmiques) sépare les stations, avec beaucoup de lits pour peu d'habitants (Arâches-la-Frasse : 411 lits pour 100 habitants, Morzine : 291), des pôles urbains (Annecy : 4,8). Chamonix, Morzine et Arâches-la-Frasse concentrent un quart des lits du département.
+
+![Communes](docs/page2_communes.png)
+
+### 3. Classements : quels hébergeurs relancer, et quand ?
+Un classement Atout France est valable 5 ans. Le rapport liste les établissements dont le classement a expiré ou expire dans les 6 mois (75), et fait apparaître un pic d'échéances à l'été 2027 : la liste de travail d'un office de tourisme.
+
+![Classements](docs/page3_classements.png)
+
+### 4. Qualité des données : peut-on se fier aux chiffres ?
+Taux de fiabilité, anomalies par contrôle et par sévérité, suivi de la volumétrie à chaque exécution, et un contrôle de réconciliation qui compare le total calculé en DAX à celui calculé par dbt.
+
+![Qualité des données](docs/page4_qualite.png)
 
 ## Architecture
 
