@@ -36,7 +36,7 @@ Le nuage de points (échelles logarithmiques) sépare les stations, avec beaucou
 ![Communes](docs/page2_communes.png)
 
 ### 3. Classements : quels hébergeurs relancer, et quand ?
-Un classement Atout France est valable 5 ans. Le rapport liste les établissements dont le classement a expiré ou expire dans les 6 mois (75), et fait apparaître un pic d'échéances à l'été 2027 : la liste de travail d'un office de tourisme.
+Un classement Atout France est valable 5 ans. Le rapport liste les établissements dont le classement a expiré ou expire dans les 6 mois (76), et fait apparaître un pic d'échéances à l'été 2027 : la liste de travail d'un office de tourisme.
 
 ![Classements](docs/page3_classements.png)
 
